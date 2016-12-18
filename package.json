@@ -1,0 +1,22 @@
+{
+  "name": "typed-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "tslib": "^1.2.0",
+    "typescript": "^2.1.4"
+  },
+  "devDependencies": {
+    "ts-node": "^1.7.2"
+  }
+}
