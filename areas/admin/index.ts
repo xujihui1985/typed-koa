@@ -1,12 +1,9 @@
-import * as Router from 'koa-router';
-import { AdminController } from './controllers/AdminController';
+import { bluePrint } from '../../RouterFactory';
+import { AdminController } from './controllers';
 
-const admin = new AdminController();
-
-const router = new Router({
-  prefix: '/admin',
+export default bluePrint({
+  namespace: 'admin',
+  controllerCollections: [
+    AdminController
+  ],
 });
-
-router.get('/', admin.index);
-
-export default router;

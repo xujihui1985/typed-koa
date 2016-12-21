@@ -1,7 +1,7 @@
 import * as http from 'http';
 import * as Koa from 'koa';
 import { Startup } from './Startup';
-import admin from './areas/admin';
+import { admin } from './areas';
 
 class AppBuilder {
   use() {
@@ -9,7 +9,7 @@ class AppBuilder {
   }
 
   build(app: Koa) {
-    
+
   }
 
 }

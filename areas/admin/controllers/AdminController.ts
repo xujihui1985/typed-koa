@@ -1,4 +1,3 @@
-
 import { Context } from 'koa';
 
 export class AdminController {
@@ -7,6 +6,7 @@ export class AdminController {
 
   }
 
+  @route('/')
   async index(ctx: Context) {
     ctx.body = {
       hello: 'world',
