@@ -9,7 +9,7 @@ interface BluePrintOptions {
   controllerCollections: any[];
 }
 
-export function bluePrint(options: BluePrintOptions): Router {
+export function area(options: BluePrintOptions): Router {
   let router;
   if (routerCollections[options.namespace]) {
     router = routerCollections[options.namespace];

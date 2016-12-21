@@ -1,7 +1,7 @@
-import { bluePrint } from '../../RouterFactory';
+import { area } from '../../AreaFactory';
 import { AdminController } from './controllers';
 
-export default bluePrint({
+export default area({
   namespace: 'admin',
   controllerCollections: [
     AdminController
